@@ -14,9 +14,6 @@ public class q18 {
             for (int k=1 ; k<=a-i ; k++){
                 System.out.print("* ");
             }
-            for (int j=1 ; j<=i-1 ; j++){
-                System.out.print("  ");
-            }
             System.out.println();
         }
         for (int i=1 ; i<=a-1 ; i++){
@@ -28,9 +25,6 @@ public class q18 {
             }
             for (int k=2 ; k<=a-i ; k++){
                 System.out.print("* ");
-            }
-            for (int j=1 ; j<=i ; j++){
-                System.out.print("  ");
             }
             System.out.println();
         }
