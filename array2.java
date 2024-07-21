@@ -1,12 +1,11 @@
-import java.util.*;
-public class array {
-    static int sum(int[] arr){
-        int s=0 ; 
-        for (int i:arr){
-            s+=i;
+import java.util.Scanner;
+public class array2 {
+    static void reverse_array(int[] arr){
+        int a=arr.length;
+        for (int i=0 ; i<a ; i++){
+            System.out.print(arr[a-i-1]);
         }
-        return s;
-    } 
+    }
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the size of the array : ");
@@ -18,7 +17,7 @@ public class array {
             int c = sc.nextInt();
             num[i] = c;
         }
-        System.out.println("The sum of number in array is : " + sum(num));
+        reverse_array(num);
         sc.close();
     }
 }
