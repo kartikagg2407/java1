@@ -1,5 +1,4 @@
-import java.util.Scanner;
-
+import java.util.*;
 public class array3 {
     static void reverse(int[] p ){
         int a=p.length;
