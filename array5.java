@@ -1,4 +1,4 @@
-
+// to swap certain values of array
 import java.util.Arrays;
 
 public class array5 {

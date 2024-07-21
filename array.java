@@ -1,4 +1,4 @@
-
+// return sum of array
 public class array {
     static int sum(int[] arr , int a , int b){
         int s=0 ; 
