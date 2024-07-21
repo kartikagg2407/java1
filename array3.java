@@ -1,4 +1,4 @@
-import java.util.Scanner;
+import java.util.Arrays;
 
 public class array3 {
     static void reverse(int[] p ){
@@ -10,21 +10,13 @@ public class array3 {
             p[a-i-1] = q[i];
         }
         System.out.print("Rverse of the array is : ");
-        for (int i:p)
-        System.out.print(i + "  ");
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the size of the array : ");
-        int a=sc.nextInt();
-        int [] num= new int [a];
-        int b = num.length;
-        for (int i=0 ; i<b ; i++){
-            System.out.print("Enter the value of "+ (i+1) + " index : ");
-            int c = sc.nextInt();
-            num[i] = c;
+        int [] num= new int [5];
+        for (int i=0 ; i<5 ; i++){
+            num[i] = i+1;
         }
         reverse(num);
-        sc.close();
+        System.out.println(Arrays.toString(num));
     }
 }
