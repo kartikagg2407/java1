@@ -1,6 +1,6 @@
-package week1.day1;
+package assignment1;
 
-public class bottomright {
+public class q3 {
     public static void main(String[] args) {
         int n =5 ;
         for (int i=n;i>=1;i--){

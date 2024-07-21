@@ -1,6 +1,6 @@
-package week1.day1;
+package assignment1;
 
-public class rightfacingtri {
+public class q2 {
     public static void main(String[] args) {
         int n = 5;
         for (int i=1;i<=n;i++){
