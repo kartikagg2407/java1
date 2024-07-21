@@ -1,3 +1,4 @@
+package day3.day3;
 public class function3 {
     static boolean prime(int n){
         int a = 0;

@@ -1,3 +1,4 @@
+package day3.day3;
 public class function2 {
     static void numbers(int n){
         for (int i=1 ; i<=n ; i++){

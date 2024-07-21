@@ -1,3 +1,4 @@
+package day3.day3;
 // search a value in array using linear search
 public class array6 {
     static int linear(int[] arr , int a){

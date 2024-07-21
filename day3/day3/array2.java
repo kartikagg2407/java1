@@ -1,3 +1,4 @@
+package day3.day3;
 // print array in reverse order
 public class array2 {
     static void reverse_array(int[] arr){

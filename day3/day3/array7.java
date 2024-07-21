@@ -1,3 +1,4 @@
+package day3.day3;
 // binary search
 
 public class array7 {

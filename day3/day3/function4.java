@@ -1,3 +1,4 @@
+package day3.day3;
 public class function4 {
     static int rev(int n){
         int s=0;

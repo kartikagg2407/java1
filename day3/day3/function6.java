@@ -1,3 +1,4 @@
+package day3.day3;
 public class function6 {
     static int digits(int n){
         int s=0;

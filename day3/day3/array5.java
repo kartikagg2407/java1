@@ -1,3 +1,4 @@
+package day3.day3;
 // to swap certain values of array
 import java.util.Arrays;
 

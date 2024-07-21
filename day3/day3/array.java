@@ -1,3 +1,4 @@
+package day3.day3;
 // return sum of array
 public class array {
     static int sum(int[] arr , int a , int b){

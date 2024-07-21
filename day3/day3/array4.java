@@ -1,3 +1,4 @@
+package day3.day3;
 // swap values of array
 public class array4 {
     static void swap(int[] arr , int i , int j){
