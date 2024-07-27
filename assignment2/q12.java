@@ -4,12 +4,23 @@ import java.util.Scanner;
 
 public class q12 {
     static void chewbacca(long n){
+        long x = n;
+        long p = 0;
+        while (x!=0){
+            x/=10 ;
+            p++;
+        }
         long s = 0;
         long a;
         long b = 0;
+        long c = 0;
         while (n!=0){
             a = n%10;
-            if (9-a<a){
+            c++;
+            if (a==9 && c == p){
+                s += a*Math.pow(10, b);
+            }
+            else if (9-a<a){
                 s = s + (9-a)*(long)Math.pow(10, b);
             }
             else{
