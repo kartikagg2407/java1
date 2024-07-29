@@ -29,5 +29,6 @@ public class q13 {
         Scanner sc = new Scanner(System.in);
         long n = sc.nextLong();
         replace(n);
+        sc.close();
     }
 }

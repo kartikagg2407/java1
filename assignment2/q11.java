@@ -21,5 +21,6 @@ public class q11 {
         int n1 = sc.nextInt();
         int n2 = sc.nextInt();
         gcd(n1, n2);
+        sc.close();
     }
 }

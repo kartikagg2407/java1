@@ -40,5 +40,6 @@ public class q12 {
         Scanner sc = new Scanner(System.in);
         long n = sc.nextLong();
         chewbacca(n);
+        sc.close();
     }
 }
