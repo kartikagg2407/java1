@@ -7,7 +7,7 @@ public class bsinsearchspace {
     }
     static int speed(int dist , int time){
         int low = 0;
-        int ans = 0;
+        int ans = -1;
         int high = 100;
         while (low<=high){
             int mid = high - (high-low)/2;
